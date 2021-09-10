@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/tulip" name="MrPurple666/android_device_xiaomi_tulip-q.git" remote="github" revision="rr" />
+ <project path="device/xiaomi/sdm660-common" name="MrPurple666/android_device_tulip_sdm660-common-q.git" remote="github" revision="rr" />
+ <project path="vendor/xiaomi/tulip" name="MrPurple666/android_vendor_xiaomi_tulip-q.git" remote="github" revision="ten" />
+ <project path="vendor/xiaomi/sdm660-common" name="MrPurple666/android_vendor_xiaomi_sdm660-common-q.git" remote="github" revision="ten" />
+ <project path="kernel/xiaomi/sdm660" name="xiaomi-sdm660/android_kernel_xiaomi_sdm660/" remote="github" revision="10.0-eas" />
+
+</manifest>
