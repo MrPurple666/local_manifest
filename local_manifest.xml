@@ -2,10 +2,15 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/tulip" name="MrPurple666/android_device_xiaomi_tulip-q.git" remote="github" revision="rr" />
- <project path="device/xiaomi/sdm660-common" name="MrPurple666/android_device_tulip_sdm660-common-q.git" remote="github" revision="rr" />
- <project path="vendor/xiaomi/tulip" name="MrPurple666/android_vendor_xiaomi_tulip-q.git" remote="github" revision="ten" />
- <project path="vendor/xiaomi/sdm660-common" name="MrPurple666/android_vendor_xiaomi_sdm660-common-q.git" remote="github" revision="ten" />
- <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="Mystic-4.4" />
-
+ <project path="device/xiaomi/tulip" name="4-19-Tulip/android_device_xiaomi_tulip.git" remote="github" revision="11" />
+ <project path="device/xiaomi/sdm660-common" name="4-19-Tulip/android_device_xiaomi_sdm660_common_4.19.git" remote="github" revision="11" />
+ <project path="vendor/xiaomi/tulip" name="4-19-Tulip/android_vendor_xiaomi_tulip-4.19.git" remote="github" revision="11" />
+ <project path="vendor/xiaomi/sdm660-common" name="4-19-Tulip/android_vendor_xiaomi_sdm660_common_4.19.git" remote="github" revision="11" />
+ <project path="kernel/xiaomi/sdm660" name="https://github.com/4-19-Tulip/android_kernel_xiaomi_sdm660.git" remote="github" revision="temp" />
+ <!-- Hals -->
+ <project path "hardware/qcom-caf/sdm660/media" name="4-19-Tulip/android_hardware_qcom_media" remote="github" revision="sdm660-4.19" />
+ <project path "hardware/qcom-caf/sdm660/display" name="4-19-Tulip/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" />
+ <peoject path "hardware/qcom-caf/sdm660/audio" name="4-19-Tulip/android_hardware_qcom_audio" remote="github" revision="sdm660-4.19" />
+ <!-- clang -->
+ <peoject path "prebuilts/clang/host/linux-x86/clang-7612306" name="4-19-Tulip/android_prebuilts_clang_host_linux-x86_clang-7612306" remote="github" revision="11" />
 </manifest>
