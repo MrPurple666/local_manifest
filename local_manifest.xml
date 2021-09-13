@@ -2,11 +2,11 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/tulip" name="4-19-Tulip/android_device_xiaomi_tulip.git" remote="github" revision="11" />
- <project path="device/xiaomi/sdm660-common" name="4-19-Tulip/android_device_xiaomi_sdm660_common_4.19.git" remote="github" revision="11" />
- <project path="vendor/xiaomi/tulip" name="4-19-Tulip/android_vendor_xiaomi_tulip-4.19.git" remote="github" revision="11" />
- <project path="vendor/xiaomi/sdm660-common" name="4-19-Tulip/android_vendor_xiaomi_sdm660_common_4.19.git" remote="github" revision="11" />
- <project path="kernel/xiaomi/sdm660" name="https://github.com/4-19-Tulip/android_kernel_xiaomi_sdm660.git" remote="github" revision="temp" />
+ <project path="device/xiaomi/tulip" name="MrPurple666/android_device_xiaomi_tulip.git" remote="github" revision="11" />
+ <project path="device/xiaomi/sdm660-common" name="MrPurple666/android_device_xiaomi_sdm660_common_4.19.git" remote="github" revision="11" />
+ <project path="vendor/xiaomi/tulip" name="MrPurple666/android_vendor_xiaomi_tulip-4.19.git" remote="github" revision="11" />
+ <project path="vendor/xiaomi/sdm660-common" name="MrPurple666/android_vendor_xiaomi_sdm660_common_4.19.git" remote="github" revision="11" />
+ <project path="kernel/xiaomi/sdm660" name="Atom-X-Devs/android_kernel_xiaomi_sdm660.git" remote="github" revision="temp" />
  <!-- Hals -->
  <project path "hardware/qcom-caf/sdm660/media" name="4-19-Tulip/android_hardware_qcom_media" remote="github" revision="sdm660-4.19" />
  <project path "hardware/qcom-caf/sdm660/display" name="4-19-Tulip/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" />
