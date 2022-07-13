@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Remote -->
+  <remote name="MrPurple666" 
+     fetch="https://github.com/MrPurple666" />
+   <remote name="LineageOS" 
+     fetch="https://github.com/LineageOS" />
+    <remote name="arturo51236" 
+      fetch="https://github.com/arturo51236" />
+    <remote name="PixelExperience" 
+      fetch="https://github.com/PixelExperience" />
+    <remote name="Evolution-X-Devices" 
+      fetch="https://github.com/Evolution-X-Devices" />
+    <remote name="BlissRoms-Devices" 
+      fetch="https://github.com/BlissRoms-Devices" />
+
  <!-- Trees -->
- <project path="device/xiaomi/tulip" name="MrPurple666/android_device_xiaomi_tulip-q.git" remote="github" revision="rr" />
- <project path="device/xiaomi/sdm660-common" name="MrPurple666/android_device_tulip_sdm660-common-q.git" remote="github" revision="rr" />
- <project path="vendor/xiaomi/tulip" name="MrPurple666/android_vendor_xiaomi_tulip-q.git" remote="github" revision="ten" />
- <project path="vendor/xiaomi/sdm660-common" name="MrPurple666/android_vendor_xiaomi_sdm660-common-q.git" remote="github" revision="ten" />
- <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="Mystic-4.4" />
+  <project path="device/xiaomi/tulip" name="MrPurple666/device_xiaomi_tulip-s.git" remote="github" revision="cr-8.x" />
+  <project path="vendor/xiaomi/tulip" name="MrPurple666/vendor_xiaomi_tulip-s.git" remote="github" revision="12" />
+  <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
 
 </manifest>
